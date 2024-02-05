@@ -1,18 +1,66 @@
-.socials-tiktok {
-    font-weight: bold;
+#bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 900px;
+  height: 20vh
 }
 
-.socials-yt {
-font-weight: bold;
+.about, .resources, .blog, .contact {
+  border: 2px solid white;
+  border-radius: 40%;
+  font-size: 22pt;
+  
 }
 
-.socials-linkedin {
-font-weight: bold;
+
+@media screen and (min-width: 992px){
+  img, #bar, #links {
+    object-fit: cover;
+  }
 }
 
-.socials-insta {
-font-weight: bold;
+
+.socials-tiktok,.socials-yt, .socials-linkedin, .socials-insta {
+  font-weight: bold;
 }
+
+a:link {
+color: orange;
+}
+
+
+a:visited {
+color: pink;
+}
+
+
+.home-words {
+  position: absolute;
+  align-items: center;
+}
+
+
+.img-name {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 44pt;
+  font-style: normal;
+  color: #ffffff;
+  float: right;
+  size: 44pt;
+  
+}
+.img-summary {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff;
+  float: right;
+  size: 16pt;
+ 
+}
+
 
 /* .ubuntu-regular {
     font-family: "Ubuntu", sans-serif;
